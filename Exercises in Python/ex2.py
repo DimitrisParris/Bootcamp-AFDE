@@ -1,0 +1,8 @@
+e_50 = input("enter number of 50:")
+e_20 = input("enter number of 20:")
+e_10 = input("enter number of 10:")
+e_5 = input("enter number of 5:")
+e_2 = input("enter number of 2:")
+e_1 = input("enter number of 1:")
+sum = 50*int(e_50)+20*int(e_20)+10*int(e_10)+5*int(e_5)+2*int(e_2)+ 1*int(e_1)
+print (sum)
