@@ -1,0 +1,7 @@
+DELIMITER $ 
+CREATE PROCEDURE exercise2() 
+BEGIN 
+    
+    SELECT * FROM actor WHERE actor_id=58;
+END$
+CALL exercise2();

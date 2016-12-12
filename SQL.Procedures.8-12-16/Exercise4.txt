@@ -1,0 +1,9 @@
+DELIMITER $
+CREATE PROCEDURE exercise3 (IN a decimal, IN thisdate datetime)
+BEGIN
+SELECT *
+    FROM payment 
+    WHERE payment.amount > a and count(distint payment_date) > thisdate;
+END$
+DELIMITER ;
+CALL exercise3(1,'2004-05-25 11:30:37');
